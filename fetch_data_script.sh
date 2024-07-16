@@ -50,7 +50,8 @@ path2=${path}/Data/Download_${finicio}
 	
 	echo -e "\e[34m${finicio} ${ftermino}\e[0m \e[1m${red}\e[0m \e[1m${stations}\e[0m \e[33m${canales}\e[0m"
 	./fetch_data -F -N ${red} -S ${stations} -C ${canales} -L ${loc} -s ${finicio} -e ${ftermino} -o ${path2}/data_${red}_${stations}_${canales}_${finicio}.mseed -m ${path2}/meta_${red}_${stations}_${canales}_${finicio}.metadata -sd ${path2} -X ${path2}/data_${red}_${stations}_${canales}_${finicio}.xml
-	
+#	./fetchdata -F -N ${red} -S ${stations} -C ${canales} -L ${loc} -s ${finicio} -e ${ftermino} -o ${path2}/data_${red}_${stations}_${canales}_${finicio}.mseed -X ${path2}/data_${red}_${stations}_${canales}_${finicio}.xml
+#only .mseed and .xml files are downloaded
 		done
 	done <<< "${estredcan}"
 echo " "

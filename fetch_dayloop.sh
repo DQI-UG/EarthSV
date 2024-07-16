@@ -6,7 +6,7 @@ read start
 echo 'Enter END date (yyyy.jdy)'
 read end 
 
-echo 'Every how many hours should the program save the data?' 
+echo 'Declare the maximum time in hours between time points in the period in which the data is downloaded' 
 read horas
 sec=3600
 add_time=$(($horas * $sec )) 
