@@ -62,11 +62,11 @@ The programs are desinged for Linux platform. However,  for Windows oriented use
         \big\lceil{24\cdot d \over h}\big\rceil, & \text{if }\  24\cdot d> h\\
         1, & \text{if }\  24\cdot d\leq h,
         \end{cases}$$
-        where $d$ is the number of days between START and END date and $h$ is the declared maximum time (in hours) between time points in the established period. The program creates $n$ folders for every time point. In each folder there is data registered in $h$ hours starting from the given time point. However, in the case where $h$ does not devide $24\cdot d$ in the last folder there is data gathered during $(24\cdot d)\ mod \ h$ hours.
+        where $d$ is the number of days between START and END date and $h$ is the declared maximum time (in hours) between time points in the established period. The program creates $n$ folders for every time period. In each folder there is data registered in $h$ hours starting from the given time point. However, in the case where $h$ does not devide $24\cdot d$ in the last folder there is data gathered during $(24\cdot d)\ mod \ h$ hours.
 
         **Example**
 
-        One wants to download data from 01.01.2020 to 2.01.2020 every 5 hours. There will be 5 time points : 00:00 a.m, 05:00 a.m,10:00 a.m.,3:00 p.m., 8:00 p.m. and the user's input is
+        One wants to download data between 01.01.2020 and 2.01.2020 every 5 hours. There will be 5 time points : 00:00 a.m, 05:00 a.m,10:00 a.m.,3:00 p.m., 8:00 p.m. and the user's input is
 
         START date: **2020.001**
 
@@ -74,7 +74,9 @@ The programs are desinged for Linux platform. However,  for Windows oriented use
 
         Declare the maximum time in hours between time points in the period in which the data is downloaded: **5**
 
-        The program will create 5 folders for downloading data. In the four folders there will be data registered in 5 hours and in the last one in 4 hours.
+        The program will create 10 folders for downloading data. In the 9 folders there will be data registered in 5 hours and in the last one in 3 hours.
+
+        Notice that the created list of time periods are written in the file date.txt. If for any reason the downloading process interrups then, after the restart, the program will start to download data from the date at begining of the list and add a new declared time periods to its end. To avoid such a situation one can modify or delete the date.txt file before the restart of the program.
 
      Point 3
 
@@ -82,12 +84,7 @@ The programs are desinged for Linux platform. However,  for Windows oriented use
 
      Point 4
 
-     The last step in preparation of data to calculation of randomness amplification is creation of one dataNoise.ascii file, which is the input file of the main program. The file dataNoise.ascii simply gathers all data from  previously created .ascii files.
-
-    The authors realize that the data preparation is cumbersome.
-
-- Here will be the instruction how to download the data
-- Use only channels BHZ, LNZ, LHZ (why?)
+     The last step in preparation of data to calculating randomness amplification is creation of one dataNoise.ascii file, which is the input file of the main program. The file dataNoise.ascii simply gathers all data from  previously created .ascii files.
 
 ## Calculating epsilon
 
