@@ -157,29 +157,28 @@ static int parse_opt (int key, char *arg,struct argp_state *state)
 	data = discretizedData;		//no "cut out trends" subroutine
 	//sourceLength = number_of_bytes;
 	if (debug)
-		printf("DEBUG: Source length %lld %lld\n", sourceLength,
-				number_of_bytes);
+		printf("DEBUG: Source length %lld\n",number_of_bytes);
 	if (debug)
 		printf("DEBUG: File loaded\n");
-	epsilons = calculateEpsilons(data, sourceLength, historyLength);//main calculation of frequencies and epsilons
+	epsilons = calculateEpsilons(data, number_of_bytes, historyLength);//main calculation of frequencies and epsilons
 	//printEpsilons(historyLength, sourceLength, epsilons); //printing epsilons
 	printEpsilons(historyLength, sourceLength, epsilons); //printing epsilons
     if( a->method_of_epsilon==1){
-        finalEpsilon = FinalEpsilon(epsilons, HistoryLength(sourceLength),1,2);
+        finalEpsilon = FinalEpsilon(epsilons, HistoryLength(number_of_bytes),1,2);
         if (finalEpsilon < 0) printf("The function FinalEpsilon invoked with  wrong parameters");
         if (info) printf("Final epsilon based on powers for history length %d %.15Lf\n ",HistoryLength(sourceLength),finalEpsilon);  
     }
     else if(a->method_of_epsilon==2){
-        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(sourceLength),2,2);
+        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,2);
 		if (info) printf("Final epsilon based on squares %.15Lf\n",finalEpsilon);
     }
     else if(a->method_of_epsilon==3){
-        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(sourceLength),2,1);
+        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,1);
 		if (info) printf("Final epsilon based on linear new method %.15Lf\n",finalEpsilon);
     
     }
 	else if(a->method_of_epsilon==4){
-        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(sourceLength),2,3);
+        finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,3);
 		if (info) printf("Final epsilon based on triple power %.15Lf\n",finalEpsilon);
     }
     break;
