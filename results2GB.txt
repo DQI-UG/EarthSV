@@ -1,0 +1,623 @@
+discretization method is 1
+source length 1000000
+Epsilon for history length 00 = 0.000569000000000
+Epsilon for history length 01 = 0.034504265854542
+Epsilon for history length 02 = 0.122686389972600
+Epsilon for history length 03 = 0.203717775137465
+Epsilon for history length 04 = 0.274216942794623
+Epsilon for history length 05 = 0.310238389210751
+Epsilon for history length 06 = 0.350891600187705
+Epsilon for history length 07 = 0.381571665744328
+Epsilon for history length 08 = 0.432203389830508
+Epsilon for history length 09 = 0.463636363636364
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250284023704574
+
+discretization method is 2
+source length 1000000
+Epsilon for history length 00 = 0.000566000000000
+Epsilon for history length 01 = 0.034499052927914
+Epsilon for history length 02 = 0.122675676489438
+Epsilon for history length 03 = 0.203710867342710
+Epsilon for history length 04 = 0.274229446702094
+Epsilon for history length 05 = 0.310270047804477
+Epsilon for history length 06 = 0.350891600187705
+Epsilon for history length 07 = 0.381571665744328
+Epsilon for history length 08 = 0.432203389830508
+Epsilon for history length 09 = 0.463636363636364
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250282523701713
+
+discretization method is 3
+source length 1000000
+Epsilon for history length 00 = 0.131551000000000
+Epsilon for history length 01 = 0.159398845065561
+Epsilon for history length 02 = 0.190483451516774
+Epsilon for history length 03 = 0.223783325102766
+Epsilon for history length 04 = 0.250576590428599
+Epsilon for history length 05 = 0.267721450108508
+Epsilon for history length 06 = 0.285015634771732
+Epsilon for history length 07 = 0.301897113964926
+Epsilon for history length 08 = 0.321652338627422
+Epsilon for history length 09 = 0.340171532670203
+Epsilon for history length 10 = 0.358735488822796
+Epsilon for history length 11 = 0.377483073760418
+Epsilon for history length 12 = 0.394677871148459
+Epsilon for history length 13 = 0.411225593442250
+Epsilon for history length 14 = 0.441176470588235
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.315775148618982
+
+discretization method is 4
+Epsilon for history length 00 = 0.000322000000000
+Epsilon for history length 01 = 0.142065490175673
+Epsilon for history length 02 = 0.351888712454991
+Epsilon for history length 03 = 0.370787991756475
+Epsilon for history length 04 = 0.413701406867762
+Epsilon for history length 05 = 0.433669113880826
+Epsilon for history length 06 = 0.453243311458859
+Epsilon for history length 07 = 0.465524402907580
+Epsilon for history length 08 = 0.500000000000000
+Epsilon for history length 09 = 0.500000000000000
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250160523469016
+
+discretization method is 5
+source length 1000000
+Epsilon for history length 00 = 0.000213000000000
+Epsilon for history length 01 = 0.171494056468055
+Epsilon for history length 02 = 0.266988639815321
+Epsilon for history length 03 = 0.308077645585473
+Epsilon for history length 04 = 0.333740168158394
+Epsilon for history length 05 = 0.345840130505710
+Epsilon for history length 06 = 0.381188118811881
+Epsilon for history length 07 = 0.416666666666667
+Epsilon for history length 08 = 0.500000000000000
+Epsilon for history length 09 = 0.500000000000000
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250106023365065
+
+discretization method is 1
+source length 10000000
+Epsilon for history length 00 = 0.000096200000000
+Epsilon for history length 01 = 0.024034424223221
+Epsilon for history length 02 = 0.088575967588059
+Epsilon for history length 03 = 0.138833509468453
+Epsilon for history length 04 = 0.257998610387858
+Epsilon for history length 05 = 0.278713551062168
+Epsilon for history length 06 = 0.341520869941681
+Epsilon for history length 07 = 0.369117280876494
+Epsilon for history length 08 = 0.407617504051864
+Epsilon for history length 09 = 0.418436703483432
+Epsilon for history length 10 = 0.474025974025974
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250048070203408
+
+discretization method is 2
+source length 10000000
+Epsilon for history length 00 = 0.000096200000000
+Epsilon for history length 01 = 0.024034424223221
+Epsilon for history length 02 = 0.088575967588059
+Epsilon for history length 03 = 0.138833509468453
+Epsilon for history length 04 = 0.257998610387858
+Epsilon for history length 05 = 0.278713551062168
+Epsilon for history length 06 = 0.341520869941681
+Epsilon for history length 07 = 0.369117280876494
+Epsilon for history length 08 = 0.407617504051864
+Epsilon for history length 09 = 0.418436703483432
+Epsilon for history length 10 = 0.474025974025974
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250048070203408
+
+discretization method is 3
+source length 10000000
+Epsilon for history length 00 = 0.252186400000000
+Epsilon for history length 01 = 0.412168313598863
+Epsilon for history length 02 = 0.469544562507606
+Epsilon for history length 03 = 0.488629549461738
+Epsilon for history length 04 = 0.495660525654354
+Epsilon for history length 05 = 0.497426719932291
+Epsilon for history length 06 = 0.498307817905773
+Epsilon for history length 07 = 0.498733466469146
+Epsilon for history length 08 = 0.498979714061948
+Epsilon for history length 09 = 0.499135007005874
+Epsilon for history length 10 = 0.499233032910966
+Epsilon for history length 11 = 0.499297266777332
+Epsilon for history length 12 = 0.499338836710079
+Epsilon for history length 13 = 0.499372936255663
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.376093185229157
+
+discretization method is 4
+source length 10000000
+Epsilon for history length 00 = 0.000030900000000
+Epsilon for history length 01 = 0.146874376836488
+Epsilon for history length 02 = 0.299035295130160
+Epsilon for history length 03 = 0.324269330111500
+Epsilon for history length 04 = 0.389221224851917
+Epsilon for history length 05 = 0.408666677236430
+Epsilon for history length 06 = 0.433480232757145
+Epsilon for history length 07 = 0.449207093806601
+Epsilon for history length 08 = 0.459806920282929
+Epsilon for history length 09 = 0.464847962044425
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250015420199516
+
+discretization method is 5
+source length 10000000
+Epsilon for history length 00 = 0.000055600000000
+Epsilon for history length 01 = 0.174242975818911
+Epsilon for history length 02 = 0.254172898998160
+Epsilon for history length 03 = 0.327825305041775
+Epsilon for history length 04 = 0.330163496830163
+Epsilon for history length 05 = 0.352823097292218
+Epsilon for history length 06 = 0.363101604278075
+Epsilon for history length 07 = 0.394531250000000
+Epsilon for history length 08 = 0.462962962962963
+Epsilon for history length 09 = 0.500000000000000
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250027770200988
+
+discretization method is 1
+source length 100000000
+Epsilon for history length 00 = 0.000034160000000
+Epsilon for history length 01 = 0.034910045054278
+Epsilon for history length 02 = 0.121508130445098
+Epsilon for history length 03 = 0.185691445371229
+Epsilon for history length 04 = 0.289062215762289
+Epsilon for history length 05 = 0.314638085948225
+Epsilon for history length 06 = 0.378298978719190
+Epsilon for history length 07 = 0.417889966007806
+Epsilon for history length 08 = 0.458767343119896
+Epsilon for history length 09 = 0.466423459429315
+Epsilon for history length 10 = 0.476119402985075
+Epsilon for history length 11 = 0.483792544570502
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250017076274964
+
+discretization method is 2
+source length 100000000
+Epsilon for history length 00 = 0.000034150000000
+Epsilon for history length 01 = 0.034910054356713
+Epsilon for history length 02 = 0.121508130445098
+Epsilon for history length 03 = 0.185691445371229
+Epsilon for history length 04 = 0.289062245166226
+Epsilon for history length 05 = 0.314638143129978
+Epsilon for history length 06 = 0.378298978719190
+Epsilon for history length 07 = 0.417889966007806
+Epsilon for history length 08 = 0.458767343119896
+Epsilon for history length 09 = 0.466423459429315
+Epsilon for history length 10 = 0.476119402985075
+Epsilon for history length 11 = 0.483792544570502
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250017071274964
+
+discretization method is 3
+source length 100000000
+Epsilon for history length 00 = 0.264646020000000
+Epsilon for history length 01 = 0.390575210212956
+Epsilon for history length 02 = 0.439460812337279
+Epsilon for history length 03 = 0.456948498138591
+Epsilon for history length 04 = 0.466771954594308
+Epsilon for history length 05 = 0.472196777677944
+Epsilon for history length 06 = 0.476118975877912
+Epsilon for history length 07 = 0.478887059455011
+Epsilon for history length 08 = 0.480976900120136
+Epsilon for history length 09 = 0.482614030255390
+Epsilon for history length 10 = 0.483953305822105
+Epsilon for history length 11 = 0.485087725068053
+Epsilon for history length 12 = 0.486054350456236
+Epsilon for history length 13 = 0.486916565691727
+Epsilon for history length 14 = 0.487667322569633
+Epsilon for history length 15 = 0.488337351505931
+Epsilon for history length 16 = 0.488902260855039
+Epsilon for history length 17 = 0.489408352260250
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.382323008246476
+
+discretization method is 4
+source length 100000000
+Epsilon for history length 00 = 0.000379540000000
+Epsilon for history length 01 = 0.132614044669027
+Epsilon for history length 02 = 0.311969303343319
+Epsilon for history length 03 = 0.332511964586113
+Epsilon for history length 04 = 0.393581330490164
+Epsilon for history length 05 = 0.413988045337271
+Epsilon for history length 06 = 0.439698943830771
+Epsilon for history length 07 = 0.459981411730177
+Epsilon for history length 08 = 0.476073422929970
+Epsilon for history length 09 = 0.481252694463263
+Epsilon for history length 10 = 0.485811444652908
+Epsilon for history length 11 = 0.490101979604079
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250189766277537
+
+discretization method is 5
+source length 100000000
+Epsilon for history length 00 = 0.000003900000000
+Epsilon for history length 01 = 0.163201512971801
+Epsilon for history length 02 = 0.249820626649699
+Epsilon for history length 03 = 0.297409452233393
+Epsilon for history length 04 = 0.327987009487479
+Epsilon for history length 05 = 0.351376846636380
+Epsilon for history length 06 = 0.357889189313047
+Epsilon for history length 07 = 0.362726557819053
+Epsilon for history length 08 = 0.369063061832912
+Epsilon for history length 09 = 0.393359646237620
+Epsilon for history length 10 = 0.500000000000000
+Epsilon for history length 11 = 0.500000000000000
+Epsilon for history length 12 = 0.500000000000000
+Epsilon for history length 13 = 0.500000000000000
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250001946274739
+
+discretization method is 1
+source length 1000000000
+Epsilon for history length 00 = 0.000037890000000
+Epsilon for history length 01 = 0.027098929556882
+Epsilon for history length 02 = 0.106117441909464
+Epsilon for history length 03 = 0.187785856237250
+Epsilon for history length 04 = 0.292494254051124
+Epsilon for history length 05 = 0.319937745999588
+Epsilon for history length 06 = 0.390025633246366
+Epsilon for history length 07 = 0.430605539725998
+Epsilon for history length 08 = 0.461798997540636
+Epsilon for history length 09 = 0.467068273092369
+Epsilon for history length 10 = 0.473172688684129
+Epsilon for history length 11 = 0.480456962207214
+Epsilon for history length 12 = 0.488225740966301
+Epsilon for history length 13 = 0.488888888888889
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250018944534374
+
+discretization method is 2
+source length 1000000000
+Epsilon for history length 00 = 0.000043246000000
+Epsilon for history length 01 = 0.027104480320712
+Epsilon for history length 02 = 0.106123521035381
+Epsilon for history length 03 = 0.187789111038534
+Epsilon for history length 04 = 0.292488343647199
+Epsilon for history length 05 = 0.319934043674711
+Epsilon for history length 06 = 0.390021955712551
+Epsilon for history length 07 = 0.430608325657538
+Epsilon for history length 08 = 0.461799446661776
+Epsilon for history length 09 = 0.467065526788986
+Epsilon for history length 10 = 0.473173730184406
+Epsilon for history length 11 = 0.480455557950708
+Epsilon for history length 12 = 0.488225740966301
+Epsilon for history length 13 = 0.488888888888889
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250021622534379
+
+discretization method is 3
+source length 1000000000
+Epsilon for history length 00 = 0.283058828000000
+Epsilon for history length 01 = 0.396542882727069
+Epsilon for history length 02 = 0.441452335522637
+Epsilon for history length 03 = 0.458436457380266
+Epsilon for history length 04 = 0.468414286523748
+Epsilon for history length 05 = 0.474014855750805
+Epsilon for history length 06 = 0.478133771711852
+Epsilon for history length 07 = 0.480978508396108
+Epsilon for history length 08 = 0.483121105036894
+Epsilon for history length 09 = 0.484745331154294
+Epsilon for history length 10 = 0.486120921977662
+Epsilon for history length 11 = 0.487252647397548
+Epsilon for history length 12 = 0.488227405191844
+Epsilon for history length 13 = 0.489080891600562
+Epsilon for history length 14 = 0.489807146789606
+Epsilon for history length 15 = 0.490463434795858
+Epsilon for history length 16 = 0.490987655333065
+Epsilon for history length 17 = 0.491460787795314
+Epsilon for history length 18 = 0.491883800702134
+Epsilon for history length 19 = 0.492276421348912
+Epsilon for history length 20 = 0.492627788774940
+Final epsilon based on powers for history length 29 0.391529413797958
+
+discretization method is 4
+source length 1000000000
+Epsilon for history length 00 = 0.000266964000000
+Epsilon for history length 01 = 0.123703975015972
+Epsilon for history length 02 = 0.297986727346708
+Epsilon for history length 03 = 0.325307799835842
+Epsilon for history length 04 = 0.390041887026472
+Epsilon for history length 05 = 0.411504375805618
+Epsilon for history length 06 = 0.441407082452431
+Epsilon for history length 07 = 0.462581081894289
+Epsilon for history length 08 = 0.476552408898291
+Epsilon for history length 09 = 0.479103409708778
+Epsilon for history length 10 = 0.482093236847801
+Epsilon for history length 11 = 0.487051414300451
+Epsilon for history length 12 = 0.490779869381483
+Epsilon for history length 13 = 0.496587030716724
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+
+Final epsilon based on powers for history length 29 0.250133481534587
+discretization method is 5
+source length 1000000000
+Epsilon for history length 00 = 0.000003921000000
+Epsilon for history length 01 = 0.156027564568161
+Epsilon for history length 02 = 0.241332452573676
+Epsilon for history length 03 = 0.286379672543632
+Epsilon for history length 04 = 0.311472153851286
+Epsilon for history length 05 = 0.317725449575183
+Epsilon for history length 06 = 0.332037577855359
+Epsilon for history length 07 = 0.344582708128525
+Epsilon for history length 08 = 0.359055455331019
+Epsilon for history length 09 = 0.379107585782249
+Epsilon for history length 10 = 0.417969529638747
+Epsilon for history length 11 = 0.448833164226700
+Epsilon for history length 12 = 0.474540078843627
+Epsilon for history length 13 = 0.485212933753943
+Epsilon for history length 14 = 0.487893462469734
+Epsilon for history length 15 = 0.493827160493827
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250001960034342
+
+discretization method is 1
+source length 1500000000
+Epsilon for history length 00 = 0.000034762666667
+Epsilon for history length 01 = 0.028945501778993
+Epsilon for history length 02 = 0.105900187295244
+Epsilon for history length 03 = 0.187549002746742
+Epsilon for history length 04 = 0.296191646024901
+Epsilon for history length 05 = 0.324289475885100
+Epsilon for history length 06 = 0.394724932947765
+Epsilon for history length 07 = 0.434923723503946
+Epsilon for history length 08 = 0.464893918135309
+Epsilon for history length 09 = 0.469760588929183
+Epsilon for history length 10 = 0.474838613812346
+Epsilon for history length 11 = 0.482238178468515
+Epsilon for history length 12 = 0.487453283502403
+Epsilon for history length 13 = 0.492660550458716
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250017381100519
+
+discretization method is 2
+source length 1500000000
+Epsilon for history length 00 = 0.000038423333333
+Epsilon for history length 01 = 0.028949414666019
+Epsilon for history length 02 = 0.105904569822198
+Epsilon for history length 03 = 0.187552611965389
+Epsilon for history length 04 = 0.296187551188014
+Epsilon for history length 05 = 0.324286607420520
+Epsilon for history length 06 = 0.394722269119272
+Epsilon for history length 07 = 0.434925487829231
+Epsilon for history length 08 = 0.464894652467651
+Epsilon for history length 09 = 0.469759124219888
+Epsilon for history length 10 = 0.474839029222387
+Epsilon for history length 11 = 0.482238178468515
+Epsilon for history length 12 = 0.487453283502403
+Epsilon for history length 13 = 0.492660550458716
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250019211433854
+
+discretization method is 3
+source length 1500000000
+Epsilon for history length 00 = 0.273268540666667
+Epsilon for history length 01 = 0.392346332110062
+Epsilon for history length 02 = 0.438419087382027
+Epsilon for history length 03 = 0.456214601904883
+Epsilon for history length 04 = 0.466709016890920
+Epsilon for history length 05 = 0.472585922230379
+Epsilon for history length 06 = 0.476878452512466
+Epsilon for history length 07 = 0.479844117780446
+Epsilon for history length 08 = 0.482080072661813
+Epsilon for history length 09 = 0.483778123823362
+Epsilon for history length 10 = 0.485211957932451
+Epsilon for history length 11 = 0.486393970871947
+Epsilon for history length 12 = 0.487408919143714
+Epsilon for history length 13 = 0.488300889539024
+Epsilon for history length 14 = 0.489059349462241
+Epsilon for history length 15 = 0.489743646444361
+Epsilon for history length 16 = 0.490296970135686
+Epsilon for history length 17 = 0.490795304551551
+Epsilon for history length 18 = 0.491245650971420
+Epsilon for history length 19 = 0.491660526186103
+Epsilon for history length 20 = 0.492032192611208
+Final epsilon based on powers for history length 29 0.386634270227753
+
+discretization method is 4
+source length 1500000000
+Epsilon for history length 00 = 0.000280438000000
+Epsilon for history length 01 = 0.124467005889729
+Epsilon for history length 02 = 0.296042527352709
+Epsilon for history length 03 = 0.324658300621123
+Epsilon for history length 04 = 0.391473006280468
+Epsilon for history length 05 = 0.413076476000607
+Epsilon for history length 06 = 0.443309472934621
+Epsilon for history length 07 = 0.464355457057125
+Epsilon for history length 08 = 0.478008848015400
+Epsilon for history length 09 = 0.480485314740415
+Epsilon for history length 10 = 0.482686082886351
+Epsilon for history length 11 = 0.487330615842239
+Epsilon for history length 12 = 0.491799703393527
+Epsilon for history length 13 = 0.495157384987893
+Epsilon for history length 14 = 0.500000000000000
+Epsilon for history length 15 = 0.500000000000000
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250140218767300
+
+discretization method is 5
+source length 1500000000
+Epsilon for history length 00 = 0.000002182666667
+Epsilon for history length 01 = 0.153622065278189
+Epsilon for history length 02 = 0.239592788166652
+Epsilon for history length 03 = 0.286484033751276
+Epsilon for history length 04 = 0.316846995398817
+Epsilon for history length 05 = 0.319530139205206
+Epsilon for history length 06 = 0.336969483142424
+Epsilon for history length 07 = 0.349986924773866
+Epsilon for history length 08 = 0.362527889493655
+Epsilon for history length 09 = 0.382172407540895
+Epsilon for history length 10 = 0.411229529503509
+Epsilon for history length 11 = 0.443731279418057
+Epsilon for history length 12 = 0.469565913823482
+Epsilon for history length 13 = 0.483482316362223
+Epsilon for history length 14 = 0.485351728836655
+Epsilon for history length 15 = 0.493365921787709
+Epsilon for history length 16 = 0.500000000000000
+Epsilon for history length 17 = 0.500000000000000
+Epsilon for history length 18 = 0.500000000000000
+Epsilon for history length 19 = 0.500000000000000
+Epsilon for history length 20 = 0.500000000000000
+Final epsilon based on powers for history length 29 0.250001091100504
