@@ -166,20 +166,20 @@ static int parse_opt (int key, char *arg,struct argp_state *state)
     if( a->method_of_epsilon==1){
         finalEpsilon = FinalEpsilon(epsilons, HistoryLength(number_of_bytes),1,2);
         if (finalEpsilon < 0) printf("The function FinalEpsilon invoked with  wrong parameters");
-        if (info) printf("Final epsilon based on powers for history length %d %.15Lf\n ",HistoryLength(sourceLength),finalEpsilon);  
+        printf("Final epsilon based on powers for history length %d %.15Lf\n ",HistoryLength(sourceLength),finalEpsilon);  
     }
     else if(a->method_of_epsilon==2){
         finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,2);
-		if (info) printf("Final epsilon based on squares %.15Lf\n",finalEpsilon);
+		printf("Final epsilon based on squares %.15Lf\n",finalEpsilon);
     }
     else if(a->method_of_epsilon==3){
         finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,1);
-		if (info) printf("Final epsilon based on linear new method %.15Lf\n",finalEpsilon);
+		printf("Final epsilon based on linear new method %.15Lf\n",finalEpsilon);
     
     }
 	else if(a->method_of_epsilon==4){
         finalEpsilon =FinalEpsilon(epsilons,HistoryLength(number_of_bytes),2,3);
-		if (info) printf("Final epsilon based on triple power %.15Lf\n",finalEpsilon);
+		printf("Final epsilon based on triple power %.15Lf\n",finalEpsilon);
     }
     break;
     }
