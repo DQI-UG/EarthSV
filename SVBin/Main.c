@@ -16,7 +16,7 @@
 #include "FinalEpsilon.h"
 
 int info=1;
-int debug=0;
+int debug=1;
 
 /*** PROTOTYPES ***/
 
@@ -35,22 +35,34 @@ int mainSV(int argc, char **argv)
 	long double *epsilons = NULL;
 	unsigned long long int sourceLength = 0;
     long double finalEpsilon;
+    char *p;
 
     if (info)
+    {
 		printf("INFO: Verbose version\n");
-    if (info)
-		printf("INFO: Data file: %s\n", argv[1]);
-    if (info)
+    	printf("INFO: Data file: %s\n", argv[1]);
+        printf("INFO: Number of paramteters: %d\n", argc);
+    }
+
+    if(argc <= 2) {
+
+        if (info)
+        {
 		printf("INFO: Counting file lines\n");
+        }
 
-    printf("INFO: Data file: %s\n", argv[1]);
+        sourceLength = countBinData(argv[1]);
 
-    sourceLength = countBinData(argv[1]);
+        printf("\nThe number of lines in the file %lld\n", sourceLength);
+    }
+    else 
+    {
+        printf("INFO: second parameter: %s\n", argv[2]);
+        sourceLength = strtoull(argv[2], &p, 10);
+        printf("\nThe number of lines manually set %lld\n", sourceLength);
+    }
 
-    printf("\nThe number of lines in the file %lld\n", sourceLength);
 
-    if (info)
-        printf("INFO: File lines = %lld\n", sourceLength);
     if (info) printf("INFO: Loading data from file\n");
 
 	binData = loadBinData(argv[1], &sourceLength);//loading data from file
