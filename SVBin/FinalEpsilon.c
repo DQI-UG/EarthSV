@@ -19,7 +19,7 @@ if (normalizationType==1){ // powertype normalization
 	for(i=0;i<=maxHistoryLength; i++){
 		power=powl((long double )normalizationRank,(long double )i);
 		Weight = Weight+1/power;
-		//!WRONG IF CAUSING PROBLEMS: if(i<=number_of_bytes){
+		//! wrong if statement: if(i<=number_of_bytes){
 		finalEpsilon = finalEpsilon +  epsilons[i]/power;
 		//}
 		//else finalEpsilon = finalEpsilon +  0.5/power;
