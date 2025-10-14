@@ -1,6 +1,7 @@
 #define DEBUG 1
 #define INFO 1
 #define MAXHISTORY 20
+#define MAXHISTORYPLUSONE 21
 #define DISC_METHOD 2
 #define METHOD_OF_EPSILON 1
 #define NUMBER_OF_LINES 10
