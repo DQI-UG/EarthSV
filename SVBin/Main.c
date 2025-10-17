@@ -15,27 +15,37 @@
 #include "TextIO.h"
 #include "FinalEpsilon.h"
 
-int info=1;
-int debug=1;
+int info = 1;
+int debug = 1;
 
 /*** PROTOTYPES ***/
 
 int mainSV(int argc, char **argv);
-int HistoryLength (unsigned long long int n);
+int calculateFormulaMaxHistoryLength (unsigned long long int n);
 
-int HistoryLength(unsigned long long int n)
-{
-    int hl =(int)(floorf((float)logl((long double)n)/logl(2))) -1;
-    return hl;
+
+/*** MAIN ***/
+int main(int argc, char **argv) {
+	clock_t startTime = clock();
+
+	mainSV(argc, argv); //main function for SV estimation
+
+    clock_t endTime = clock();
+    double runningTime = (double) (endTime - startTime) / CLOCKS_PER_SEC;
+    if (info) printf("\nINFO: Program running time was %lf seconds\n", runningTime);
+    return 0;
 }
+
 
 int mainSV(int argc, char **argv)
 {
     unsigned char *binData = NULL;
 	long double *epsilons = NULL;
-	unsigned long long int sourceLength = 0;
+	// unsigned long long int sourceLength = 0;
     long double finalEpsilon;
     char *p;
+    unsigned long long int number_of_bytes = 0;
+    int historyLength = MAXHISTORY;
 
     if (info)
     {
@@ -51,36 +61,36 @@ int mainSV(int argc, char **argv)
 		printf("INFO: Counting file lines\n");
         }
 
-        sourceLength = countBinData(argv[1]);
+        number_of_bytes = countBinData(argv[1]);
 
-        printf("\nThe number of lines in the file %lld\n", sourceLength);
+        printf("\nThe number of lines in the file %lld\n", number_of_bytes);
     }
     else 
     {
         printf("INFO: second parameter: %s\n", argv[2]);
-        sourceLength = strtoull(argv[2], &p, 10);
-        printf("\nThe number of lines manually set %lld\n", sourceLength);
+        number_of_bytes = strtoull(argv[2], &p, 10);
+        printf("\nThe number of lines manually set %lld\n", number_of_bytes);
     }
 
 
     if (info) printf("INFO: Loading data from file\n");
 
-	binData = loadBinData(argv[1], &sourceLength);//loading data from file
+	binData = loadBinData(argv[1], &number_of_bytes);//loading data from file
 
 	if (info)printf("INFO: Data loaded\n");
-    if (info) printf("INFO: Using history of length %d\n", MAXHISTORY - 1);
-    if (info) printf("INFO: Program takes %lld lines from data file.\n",sourceLength);
+    if (info) printf("INFO: Using history of length %d\n", historyLength);
+    if (info) printf("INFO: Program takes %lld lines from data file.\n",number_of_bytes);
 
 	if (debug)
-		printf("DEBUG: Source length %lld\n",sourceLength);
+		printf("DEBUG: Source length %lld\n",number_of_bytes);
 	if (debug)
 		printf("DEBUG: File loaded\n");
-	epsilons = calculateEpsilons(binData, sourceLength, MAXHISTORY - 1);//main calculation of frequencies and epsilons
-	printEpsilons(MAXHISTORY - 1, sourceLength, epsilons); //printing epsilons
+	epsilons = calculateEpsilons(binData, number_of_bytes, historyLength);//main calculation of frequencies and epsilons
+	printEpsilons(historyLength, number_of_bytes, epsilons); //printing epsilons
 
-    finalEpsilon = FinalEpsilon(epsilons, MAXHISTORY - 1,1,2);
+    finalEpsilon = FinalEpsilon(epsilons, calculateFormulaMaxHistoryLength(number_of_bytes), historyLength, 1,2);
     if (finalEpsilon < 0) printf("The function FinalEpsilon invoked with  wrong parameters");
-    printf("Final epsilon based on powers for history length %d %.15Lf\n ",MAXHISTORY - 1,finalEpsilon);  
+    printf("Final epsilon based on powers for history length %d %.15Lf\n ",calculateFormulaMaxHistoryLength(number_of_bytes),finalEpsilon);  
 
     free(binData);
     free(epsilons);
@@ -88,14 +98,8 @@ int mainSV(int argc, char **argv)
     return 0;
 }
 
-/*** MAIN ***/
-int main(int argc, char **argv) {
-	clock_t startTime = clock();
-
-	mainSV(argc, argv); //main function for SV estimation
-
-    clock_t endTime = clock();
-    double runningTime = (double) (endTime - startTime) / CLOCKS_PER_SEC;
-    if (info) printf("\nINFO: Program running time was %lf seconds\n", runningTime);
-    return 0;
+int calculateFormulaMaxHistoryLength(unsigned long long int n)
+{
+    int hl =(int)(floorf((float)logl((long double)n)/logl(2))) -1;
+    return hl;
 }

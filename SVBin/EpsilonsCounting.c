@@ -10,7 +10,7 @@
 long double* calculateEpsilons(unsigned char *data, unsigned long long int sourceLength, int historyLength) {
 
 	long double *epsilons;
-	unsigned long long int *sequencesCount[MAXHISTORY]; //30 is max history here
+	unsigned long long int *sequencesCount[MAXHISTORY+1]; //30 is max history here
 	long double currentEpsilon = 0;
 
 	if (debug)	printf("new version\n");

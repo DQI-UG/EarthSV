@@ -8,4 +8,4 @@ multiplication is taken normalizationRank  times
 return value : final epsilon or -1 if wrong arguments are fed to the function
 */
 
-long double FinalEpsilon(long double  *epsilons, int maxHistoryLength, int normalizationType,int normalizationRank);
+long double FinalEpsilon(long double  *epsilons, int maxHistoryLengthFormula, int maxHistoryLengthHardware, int normalizationType,int normalizationRank);
